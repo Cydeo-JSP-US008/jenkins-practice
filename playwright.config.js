@@ -10,7 +10,7 @@ module.exports = defineConfig({
   reporter: "html",
   use: {
     trace: "on-first-retry",
-    headless:  true,
+    headless: false,
   },
 
   /* Configure projects for major browsers */
