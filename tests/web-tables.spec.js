@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test('Web Table Practice', async ({ page }) => {
+test('Web Table Practice @smoke', async ({ page }) => {
     
     await page.goto("https://practice.cydeo.com/web-tables");
 

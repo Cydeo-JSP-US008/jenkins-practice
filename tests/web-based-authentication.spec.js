@@ -1,6 +1,6 @@
 import { test } from '@playwright/test';
 
-test('Bypass authentication by embedding the credentials in the URL', async ({ page }) => {
+test('Bypass authentication by embedding the credentials in the URL @smoke', async ({ page }) => {
 
     // https://username:password@practice.cydeo.com/basic_auth
     await page.goto("https://admin:admin@practice.cydeo.com/basic_auth");

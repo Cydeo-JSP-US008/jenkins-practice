@@ -1,6 +1,6 @@
 import { test } from "@playwright/test";
 
-test("SEP Successful Checkout", async ({ page }) => {
+test("SEP Successful Checkout @smoke", async ({ page }) => {
   /*
         Encode the following credential in base64 format
             username: XX
